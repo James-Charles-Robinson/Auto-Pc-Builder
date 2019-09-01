@@ -1,2 +1,4 @@
 # Auto-Pc-Builder
-A web scraper that takes user input and uses that to take exsisting pc builds and edit them to fit the users needs, using requests, selenium and BeautifulSoup
+A web scraper that takes user input and uses that to take exsisting pc builds and edit them to fit the users needs, using requests, selenium and BeautifulSoup.
+# What I learnt
+In this program I further developed my web scraping and data analysis skills. On this project i faced a problem, I couldnt just use bs4 to scrape the peripheral data from product pages (eg https://pcpartpicker.com/products/monitor/). This is because the data on these pages werent static and so werent in the source code which the libary requests can scrape. This means i had to use selenium to get the data. This means when you run the program firefox opens. I successfully learnt how to use selenium to navigate firefox webpages. I also learnt how to encrypt and decrypt user passwords using cryptography.fernet for a semi secure login system.
